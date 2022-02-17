@@ -1,0 +1,506 @@
+[
+  {
+    "chosen": false,
+    "id": 1,
+    "open_division_id": 1,
+    "competitor_name": "ANTHONY LEDESMA"
+  },
+  {
+    "chosen": false,
+    "id": 2,
+    "open_division_id": 1,
+    "competitor_name": "AARON ORTIZ"
+  },
+  {
+    "chosen": false,
+    "id": 3,
+    "open_division_id": 1,
+    "competitor_name": "ADAM KATKHOUDA"
+  },
+  {
+    "chosen": false,
+    "id": 4,
+    "open_division_id": 1,
+    "competitor_name": "ADAM LEE"
+  },
+  {
+    "chosen": false,
+    "id": 5,
+    "open_division_id": 2,
+    "competitor_name": "ALANNA BAYLOR"
+  },
+  {
+    "chosen": false,
+    "id": 6,
+    "open_division_id": 2,
+    "competitor_name": "ALEJANDRA FIGUEROA"
+  },
+  {
+    "chosen": false,
+    "id": 7,
+    "open_division_id": 2,
+    "competitor_name": "ALICE LIOU"
+  },
+  {
+    "chosen": false,
+    "id": 8,
+    "open_division_id": 2,
+    "competitor_name": "ALLYN JONES"
+  },
+  {
+    "chosen": false,
+    "id": 9,
+    "open_division_id": 2,
+    "competitor_name": "ANASTASIA KRANIAS"
+  },
+  {
+    "chosen": false,
+    "id": 10,
+    "open_division_id": 1,
+    "competitor_name": "ANDY HORST"
+  },
+  {
+    "chosen": false,
+    "id": 11,
+    "open_division_id": 2,
+    "competitor_name": "ANITHA THOMAS"
+  },
+  {
+    "chosen": false,
+    "id": 12,
+    "open_division_id": 1,
+    "competitor_name": "ANTHONY HO"
+  },
+  {
+    "chosen": false,
+    "id": 13,
+    "open_division_id": 1,
+    "competitor_name": "ARAVIND MOORTHY"
+  },
+  {
+    "chosen": false,
+    "id": 14,
+    "open_division_id": 2,
+    "competitor_name": "ASHLEY JONES"
+  },
+  {
+    "chosen": false,
+    "id": 15,
+    "open_division_id": 2,
+    "competitor_name": "ASHLEY LAITANO"
+  },
+  {
+    "chosen": false,
+    "id": 16,
+    "open_division_id": 1,
+    "competitor_name": "BARRET SCHLOERKE"
+  },
+  {
+    "chosen": false,
+    "id": 17,
+    "open_division_id": 2,
+    "competitor_name": "BIANCA ANEZ"
+  },
+  {
+    "chosen": false,
+    "id": 18,
+    "open_division_id": 1,
+    "competitor_name": "BORNA DAFTARI"
+  },
+  {
+    "chosen": false,
+    "id": 19,
+    "open_division_id": 1,
+    "competitor_name": "BRIAN SEAGRAVE"
+  },
+  {
+    "chosen": false,
+    "id": 20,
+    "open_division_id": 1,
+    "competitor_name": "BRIANA STEWART"
+  },
+  {
+    "chosen": false,
+    "id": 21,
+    "open_division_id": 2,
+    "competitor_name": "CAROL DINION"
+  },
+  {
+    "chosen": false,
+    "id": 22,
+    "open_division_id": 2,
+    "competitor_name": "CATHY CAI"
+  },
+  {
+    "chosen": false,
+    "id": 23,
+    "open_division_id": 2,
+    "competitor_name": "CHAIMAA RAIHANOUNE"
+  },
+  {
+    "chosen": false,
+    "id": 24,
+    "open_division_id": 1,
+    "competitor_name": "DALE VAN WAGNER"
+  },
+  {
+    "chosen": false,
+    "id": 25,
+    "open_division_id": 2,
+    "competitor_name": "DANIELA SONDEREGGER"
+  },
+  {
+    "chosen": false,
+    "id": 26,
+    "open_division_id": 1,
+    "competitor_name": "DENIS TORRICO"
+  },
+  {
+    "chosen": false,
+    "id": 27,
+    "open_division_id": 2,
+    "competitor_name": "DENYS YAVORSKYI"
+  },
+  {
+    "chosen": false,
+    "id": 28,
+    "open_division_id": 2,
+    "competitor_name": "ELIZABETH KELLEY"
+  },
+  {
+    "chosen": false,
+    "id": 29,
+    "open_division_id": 1,
+    "competitor_name": "EMRAH DILSIZOGLU"
+  },
+  {
+    "chosen": false,
+    "id": 30,
+    "open_division_id": 1,
+    "competitor_name": "GARETH THOMAS"
+  },
+  {
+    "chosen": false,
+    "id": 31,
+    "open_division_id": 1,
+    "competitor_name": "GEORGE HAMMERSCHMIDT"
+  },
+  {
+    "chosen": false,
+    "id": 32,
+    "open_division_id": 1,
+    "competitor_name": "GERALD HODGES"
+  },
+  {
+    "chosen": false,
+    "id": 33,
+    "open_division_id": 2,
+    "competitor_name": "HEATHER PLATT"
+  },
+  {
+    "chosen": false,
+    "id": 34,
+    "open_division_id": 1,
+    "competitor_name": "IAN JONES"
+  },
+  {
+    "chosen": false,
+    "id": 35,
+    "open_division_id": 1,
+    "competitor_name": "JAMES SHIN"
+  },
+  {
+    "chosen": false,
+    "id": 36,
+    "open_division_id": 1,
+    "competitor_name": "JAMES STUMP"
+  },
+  {
+    "chosen": false,
+    "id": 37,
+    "open_division_id": 2,
+    "competitor_name": "JANE RATHI"
+  },
+  {
+    "chosen": false,
+    "id": 38,
+    "open_division_id": 1,
+    "competitor_name": "JASON CARRIER"
+  },
+  {
+    "chosen": false,
+    "id": 39,
+    "open_division_id": 2,
+    "competitor_name": "JENNY HARPER"
+  },
+  {
+    "chosen": false,
+    "id": 40,
+    "open_division_id": 1,
+    "competitor_name": "JEREMY GAGNE"
+  },
+  {
+    "chosen": false,
+    "id": 41,
+    "open_division_id": 2,
+    "competitor_name": "JESSICA COLSIA"
+  },
+  {
+    "chosen": false,
+    "id": 42,
+    "open_division_id": 2,
+    "competitor_name": "JESSIE ORBAN"
+  },
+  {
+    "chosen": false,
+    "id": 43,
+    "open_division_id": 1,
+    "competitor_name": "JOE MOSCHETTO"
+  },
+  {
+    "chosen": false,
+    "id": 44,
+    "open_division_id": 1,
+    "competitor_name": "JORGE RUBIO"
+  },
+  {
+    "chosen": false,
+    "id": 45,
+    "open_division_id": 1,
+    "competitor_name": "JOSEPH DESANTIS"
+  },
+  {
+    "chosen": false,
+    "id": 46,
+    "open_division_id": 1,
+    "competitor_name": "JUNPU WANG"
+  },
+  {
+    "chosen": false,
+    "id": 47,
+    "open_division_id": 2,
+    "competitor_name": "KATE CURRIE"
+  },
+  {
+    "chosen": false,
+    "id": 48,
+    "open_division_id": 2,
+    "competitor_name": "KATHERINE WHITAKER"
+  },
+  {
+    "chosen": false,
+    "id": 49,
+    "open_division_id": 1,
+    "competitor_name": "KEVIN PEI"
+  },
+  {
+    "chosen": false,
+    "id": 50,
+    "open_division_id": 1,
+    "competitor_name": "KOSH RATHI"
+  },
+  {
+    "chosen": false,
+    "id": 51,
+    "open_division_id": 1,
+    "competitor_name": "KYLE TEJEDAR"
+  },
+  {
+    "chosen": false,
+    "id": 52,
+    "open_division_id": 2,
+    "competitor_name": "LINDSEY PLUMMER"
+  },
+  {
+    "chosen": false,
+    "id": 53,
+    "open_division_id": 2,
+    "competitor_name": "MARIAH LOWER"
+  },
+  {
+    "chosen": false,
+    "id": 54,
+    "open_division_id": 1,
+    "competitor_name": "MAX MCCLAIN"
+  },
+  {
+    "chosen": false,
+    "id": 55,
+    "open_division_id": 2,
+    "competitor_name": "MEGHAN SWOPE"
+  },
+  {
+    "chosen": false,
+    "id": 56,
+    "open_division_id": 1,
+    "competitor_name": "MIKE OBADAL"
+  },
+  {
+    "chosen": false,
+    "id": 57,
+    "open_division_id": 1,
+    "competitor_name": "MIKE ROSS"
+  },
+  {
+    "chosen": false,
+    "id": 58,
+    "open_division_id": 1,
+    "competitor_name": "NARAYAN NATARAJAN"
+  },
+  {
+    "chosen": false,
+    "id": 59,
+    "open_division_id": 2,
+    "competitor_name": "NICOLE WARWICK"
+  },
+  {
+    "chosen": false,
+    "id": 60,
+    "open_division_id": 1,
+    "competitor_name": "OKI MEK"
+  },
+  {
+    "chosen": false,
+    "id": 61,
+    "open_division_id": 1,
+    "competitor_name": "PETER GREENSPUN"
+  },
+  {
+    "chosen": false,
+    "id": 62,
+    "open_division_id": 1,
+    "competitor_name": "QUINN O'CONNELL"
+  },
+  {
+    "chosen": false,
+    "id": 63,
+    "open_division_id": 2,
+    "competitor_name": "RACHEL NOAH"
+  },
+  {
+    "chosen": false,
+    "id": 64,
+    "open_division_id": 1,
+    "competitor_name": "RAMON TOLEDO"
+  },
+  {
+    "chosen": false,
+    "id": 65,
+    "open_division_id": 1,
+    "competitor_name": "REYNALDO CERVANTES"
+  },
+  {
+    "chosen": false,
+    "id": 66,
+    "open_division_id": 1,
+    "competitor_name": "RISHI LUTHAR"
+  },
+  {
+    "chosen": false,
+    "id": 67,
+    "open_division_id": 2,
+    "competitor_name": "RYAN RUHSTORFER"
+  },
+  {
+    "chosen": false,
+    "id": 68,
+    "open_division_id": 2,
+    "competitor_name": "SALIHAMA JDOUL"
+  },
+  {
+    "chosen": false,
+    "id": 69,
+    "open_division_id": 1,
+    "competitor_name": "SAM WAPSHARE"
+  },
+  {
+    "chosen": false,
+    "id": 70,
+    "open_division_id": 1,
+    "competitor_name": "SCINJIT GADAMSETTY"
+  },
+  {
+    "chosen": false,
+    "id": 71,
+    "open_division_id": 2,
+    "competitor_name": "SHARI KAMM"
+  },
+  {
+    "chosen": false,
+    "id": 72,
+    "open_division_id": 1,
+    "competitor_name": "SHELDON JONES"
+  },
+  {
+    "chosen": false,
+    "id": 73,
+    "open_division_id": 2,
+    "competitor_name": "SHIVON SOOD"
+  },
+  {
+    "chosen": false,
+    "id": 74,
+    "open_division_id": 1,
+    "competitor_name": "STEVE DAILEY"
+  },
+  {
+    "chosen": false,
+    "id": 75,
+    "open_division_id": 1,
+    "competitor_name": "STEVEN MARCELINO"
+  },
+  {
+    "chosen": false,
+    "id": 76,
+    "open_division_id": 1,
+    "competitor_name": "TAYLOR COBB"
+  },
+  {
+    "chosen": false,
+    "id": 77,
+    "open_division_id": 1,
+    "competitor_name": "TAYLOR HOUCK"
+  },
+  {
+    "chosen": false,
+    "id": 78,
+    "open_division_id": 1,
+    "competitor_name": "TOMASZ PARTYKA"
+  },
+  {
+    "chosen": false,
+    "id": 79,
+    "open_division_id": 1,
+    "competitor_name": "TROY FONTILLAS"
+  },
+  {
+    "chosen": false,
+    "id": 80,
+    "open_division_id": 2,
+    "competitor_name": "VANESSA YAO"
+  },
+  {
+    "chosen": false,
+    "id": 81,
+    "open_division_id": 2,
+    "competitor_name": "WHITNEY KING"
+  },
+  {
+    "chosen": false,
+    "id": 82,
+    "open_division_id": 1,
+    "competitor_name": "YESH SURYA"
+  },
+  {
+    "chosen": false,
+    "id": 83,
+    "open_division_id": 2,
+    "competitor_name": "YULIA CONTRERAS"
+  },
+  {
+    "chosen": false,
+    "id": 84,
+    "open_division_id": 1,
+    "competitor_name": "ZACHARY JONES"
+  }
+]
