@@ -1,6 +1,4 @@
-import {useState} from 'react'
 import {
-  ChakraProvider,
   Container,
   Tabs,
   TabList,
@@ -11,7 +9,6 @@ import {
   Text,
   HStack,
   Box,
-  Flex,
   IconButton,
   Heading,
   useToast,
@@ -22,9 +19,7 @@ import {DragHandleIcon, CloseIcon, AddIcon, CopyIcon} from '@chakra-ui/icons'
 import './App.css'
 import OldLeaderBoard from './OldLeaderBoard'
 import type {Athlete} from './OldLeaderBoard'
-import {useEffect} from 'react'
 import {useSearchParams} from 'react-router-dom'
-import {isEqual} from 'lodash-es'
 
 const reorder = (list: any[], startIndex: number, endIndex: number) => {
   const result = Array.from(list)
@@ -40,11 +35,11 @@ type QueuedAthlete = Athlete & {
 
 function App() {
   const [searchParams, setSearchParams] = useSearchParams()
-  const athletesFromParams = JSON.parse(
+  const queuedAthletes = JSON.parse(
     searchParams.get('athletes') ?? '[]',
   ) as QueuedAthlete[]
-  const [queuedAthletes, setQueuedAthletes] =
-    useState<QueuedAthlete[]>(athletesFromParams)
+  // const [queuedAthletes, setQueuedAthletes] =
+  //   useState<QueuedAthlete[]>(athletesFromParams)
 
   const toast = useToast()
 
@@ -96,13 +91,17 @@ function App() {
             <OldLeaderBoard
               chosenAthletes={queuedAthletes}
               onAthleteClick={({athlete, action}) => {
-                setQueuedAthletes((athletes) => {
-                  if (action === 'add') {
-                    return athletes.concat(athlete)
-                  } else {
-                    return athletes.filter((a) => a.id !== athlete.id)
-                  }
-                })
+                if (action === 'add') {
+                  setSearchParams({
+                    athletes: JSON.stringify(queuedAthletes.concat(athlete)),
+                  })
+                } else {
+                  setSearchParams({
+                    athletes: JSON.stringify(
+                      queuedAthletes.filter((a) => a.id !== athlete.id),
+                    ),
+                  })
+                }
               }}
             />
           </TabPanel>
@@ -120,7 +119,9 @@ function App() {
                   result.destination.index,
                 )
 
-                setQueuedAthletes(newAthletes)
+                setSearchParams({
+                  athletes: JSON.stringify(newAthletes),
+                })
               }}
             >
               <Droppable droppableId="droppable">
@@ -170,14 +171,16 @@ function App() {
                                     icon={<AddIcon />}
                                     colorScheme="green"
                                     onClick={() => {
-                                      setQueuedAthletes((athletes) =>
-                                        athletes.map((a) => {
-                                          if (a.id === athlete.id) {
-                                            a.chosen = true
-                                          }
-                                          return a
-                                        }),
-                                      )
+                                      setSearchParams({
+                                        athletes: JSON.stringify(
+                                          queuedAthletes.map((a) => {
+                                            if (a.id === athlete.id) {
+                                              a.chosen = true
+                                            }
+                                            return a
+                                          }),
+                                        ),
+                                      })
                                     }}
                                   />
                                 )}
@@ -187,11 +190,13 @@ function App() {
                                   colorScheme="red"
                                   icon={<CloseIcon />}
                                   onClick={() => {
-                                    setQueuedAthletes((athletes) =>
-                                      athletes.filter(
-                                        (a) => a.id !== athlete.id,
+                                    setSearchParams({
+                                      athletes: JSON.stringify(
+                                        queuedAthletes.filter(
+                                          (a) => a.id !== athlete.id,
+                                        ),
                                       ),
-                                    )
+                                    })
                                   }}
                                 />
                               </HStack>
