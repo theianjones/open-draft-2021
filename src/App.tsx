@@ -43,20 +43,12 @@ function App() {
   const athletesFromParams = JSON.parse(
     searchParams.get('athletes') ?? '[]',
   ) as QueuedAthlete[]
-  const [queuedAthletes, setQueuedAthletes] = useState<QueuedAthlete[]>(
-    // JSON.parse(searchParams.get('athletes') ?? '[]') as QueuedAthlete[],
-    athletesFromParams,
-  )
+  const [queuedAthletes, setQueuedAthletes] =
+    useState<QueuedAthlete[]>(athletesFromParams)
 
   const toast = useToast()
 
   const grid = queuedAthletes.length
-
-  useEffect(() => {
-    if (!isEqual(queuedAthletes, athletesFromParams)) {
-      setSearchParams({athletes: JSON.stringify(queuedAthletes)})
-    }
-  }, [queuedAthletes])
 
   const getListStyle = (isDraggingOver: boolean) => ({
     padding: grid,
@@ -80,6 +72,7 @@ function App() {
         <Button
           rightIcon={<CopyIcon />}
           onClick={() => {
+            setSearchParams({athletes: JSON.stringify(queuedAthletes)})
             navigator.clipboard.writeText(window.location.href)
             toast({
               title: 'Copied the link to your clipboard',
@@ -169,23 +162,25 @@ function App() {
                               <Text>{index + 1}</Text>
                               <Text>{athlete.competitor_name}</Text>
                             </HStack>
-                            {!snapshot.isDragging && !athlete.chosen && (
+                            {!snapshot.isDragging && (
                               <HStack>
-                                <IconButton
-                                  aria-label="claim"
-                                  icon={<AddIcon />}
-                                  colorScheme="green"
-                                  onClick={() => {
-                                    setQueuedAthletes((athletes) =>
-                                      athletes.map((a) => {
-                                        if (a.id === athlete.id) {
-                                          a.chosen = true
-                                        }
-                                        return a
-                                      }),
-                                    )
-                                  }}
-                                />
+                                {!athlete.chosen && (
+                                  <IconButton
+                                    aria-label="claim"
+                                    icon={<AddIcon />}
+                                    colorScheme="green"
+                                    onClick={() => {
+                                      setQueuedAthletes((athletes) =>
+                                        athletes.map((a) => {
+                                          if (a.id === athlete.id) {
+                                            a.chosen = true
+                                          }
+                                          return a
+                                        }),
+                                      )
+                                    }}
+                                  />
+                                )}
 
                                 <IconButton
                                   aria-label="remove"

@@ -8,7 +8,7 @@ import {
   HStack,
   useToast,
 } from '@chakra-ui/react'
-import {includes, sortBy} from 'lodash-es'
+import {includes, sortBy, get} from 'lodash-es'
 import {useState} from 'react'
 
 import leaderboard2021 from './data/2021'
@@ -118,7 +118,7 @@ export default function OldLeaderBoard({
                       Division
                     </Heading>
                     <Text color="blue.700">
-                      {divisions[athlete?.open_division_id]}
+                      {get(divisions, athlete?.open_division_id)}
                     </Text>
                   </Flex>
                   <Flex direction={'column'}>
